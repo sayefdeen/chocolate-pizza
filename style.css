@@ -53,3 +53,24 @@ hr {
 #icons #last-two {
   margin: 0;
 }
+
+#content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+}
+
+.float-right {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  justify-content: baseline;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+
+.float-right p {
+  margin: 0;
+}
