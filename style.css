@@ -74,3 +74,100 @@ hr {
 .float-right p {
   margin: 0;
 }
+
+#picture {
+  background-image: url("img/choco-pizza.png");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 50px auto;
+  background-size: cover;
+  align-items: right;
+}
+
+#text-content {
+  width: 100%;
+  text-justify: auto;
+  margin: 50px auto;
+}
+
+span {
+  padding-left: 25px;
+}
+
+#text-content p {
+  line-height: 1.5;
+  font-family: sans-serif;
+  margin: 25px;
+}
+
+#list {
+  background-image: url("img/list-bg.png");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-position: center;
+}
+
+.list-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  line-height: 3;
+}
+
+.list-content ul {
+  margin: 0 20%;
+  list-style-type: none;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 50px auto;
+}
+#footer button {
+  float: left;
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  text-transform: uppercase;
+  margin: 0 50px;
+}
+
+#footer img {
+  margin: 0 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  z-index: 1;
+}
+
+footer hr {
+  padding: 0;
+  border: none;
+  border-top: 1px solid #333;
+  color: #333;
+  text-align: center;
+  background-image: none;
+}
+footer hr:after {
+  content: url("img/small-logo.png");
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
